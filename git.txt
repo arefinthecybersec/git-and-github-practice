@@ -4,10 +4,10 @@ git config --global user.name Arefin
 git config --global user.email arefinstudent71@gmail.com
 
 git init
-touch arefin.html
+touch arefin.html   [new file create for use: touch]
 
-git add -A
-git status
+git add -A   [ A for: all add]
+git status   
 
 cd ..  [main folder return]
 
