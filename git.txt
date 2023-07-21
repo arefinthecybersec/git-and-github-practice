@@ -1,0 +1,76 @@
+--------------------about git-----------------------
+
+git config --global user.name Arefin
+git config --global user.email arefinstudent71@gmail.com
+
+git init
+touch arefin.html
+
+git add -A
+git status
+
+cd ..  [main folder return]
+
+git add css/custom.css  [manually staged newa]
+
+git commit -m "Some modification on index.html file"   [commit kra]
+
+git checkout about.html	 [kno file close hye gele rollback ana]
+git checkout -f   [je sob folder remove hyce rollback ana]
+
+git log           [all commit show]
+git log -p -l     [last commit show]
+
+git diff	  [kno change ace kina deka]
+git diff --staged [last commit ck]
+
+git reset --hard  [all reset/hard]
+git rm arefin.txt -f  [forcefully dlt]
+
+.gitignore file create kre okne je kno file
+add krle[untrack show krbe na]
+
+git checkout -b mini[new branch open & switched]
+git merge mini  [merge]
+
+
+------------------upload to github-------------
+
+create new repository
+remote line ta editor dewa
+for cheeck: git remote -v
+
+finally : git push origin master
+
+
+-----------------done & dusted--------------------
+Arefin.
+20-07-23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
